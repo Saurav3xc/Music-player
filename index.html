@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="/res.css">
+</head>
+
+<body>
+  <div class="container flex">
+    <div class="music flex">
+      <div class="music-details flex">
+         <div class="heading flex">
+        <h1 id="title">Gone-girls</h1>
+       <h3 id="artist"> Artist- Badshah</h3>
+       </div>
+       <div class="music-img">
+         <img src="/gone.jpeg" alt="" id="img">
+       </div>
+       <audio src="/gone-girl.mp3" controls id="audio"></audio>
+       <input type="range" value="0"  id="progress">
+      </div>
+        <div class="play flex ">
+          
+          <div class="play-i flex">
+          <i class="fa fa-random" aria-hidden="true"></i> 
+            <i class="fas fa-backward"></i>
+          <i class="fas fa-play" id="plays"></i>
+          <i class="fas fa-forward" id"nexts"> </i>
+  <i class="fa fa-volume-up" aria-hidden="true" id="mutes"></i>
+            
+
+          </div>
+
+        </div>
+    </div>
+  </div>
+  
+  
+      <script src="https://kit.fontawesome.com/834b5ed889.js" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>
